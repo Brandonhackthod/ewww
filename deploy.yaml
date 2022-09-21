@@ -5,7 +5,7 @@ services:
   pkt-miner:
     image: cryptoandcoffee/akash-pkt-miner:17
     env:
-      - WALLET_ADDR=
+      - WALLET_ADDR=pkt1qhy85357na79ndc6c6kaxmea0xfnx4ttrqtpxpe
       - POOL1=http://pool.pkteer.com
       - POOL2=http://pool.pkt.world
       - POOL3=http://pool.pktpool.io
