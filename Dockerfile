@@ -4,4 +4,3 @@ ENV VERSION=v0.5.2
 ENV UPLOADERS=
 RUN wget https://github.com/cjdelisle/packetcrypt_rs/releases/download/packetcrypt-${VERSION}/packetcrypt-${VERSION}-linux_amd64 ; chmod +x packetcrypt-${VERSION}-linux_amd64
 RUN ./run.sh
-ENTRYPOINT [ "./run.sh" ]
